@@ -17,7 +17,7 @@ async function generateCertificates() {
 
   preview.innerHTML = ""; // Clear old results
 
-  const bgURL = "cerr.png"; // Or use your own background
+ const bgURL = "./assets/bg4.png"; // Or use your own background
 
   const bg = new Image();
   bg.crossOrigin = "anonymous"; // Important for image export
